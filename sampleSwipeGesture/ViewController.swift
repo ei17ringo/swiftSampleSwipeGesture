@@ -20,6 +20,14 @@ class ViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
 
+    @IBAction func swipeView(sender: UISwipeGestureRecognizer) {
+        
+        print("右スワイプされた")
+    }
 
+    @IBAction func swipePinkView(sender: AnyObject) {
+        
+        print("下スワイプされた")
+    }
 }
 
